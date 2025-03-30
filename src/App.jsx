@@ -5,7 +5,7 @@ export function App() {
   const [notaAvaliacao, setNotaAvaliacao] = useState(0);
 
   function handleMudarNotaAvaliacao(nota) {
-    setNotaAvaliacao(nota);  // Aqui você deve passar a nota
+    setNotaAvaliacao(nota);  
   }
 
   return (
